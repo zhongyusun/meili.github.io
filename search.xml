@@ -35,12 +35,12 @@
       <link href="/2022/10/10/laravel-chang-yong-kuo-zhan/"/>
       <url>/2022/10/10/laravel-chang-yong-kuo-zhan/</url>
       
-        <content type="html"><![CDATA[<h2 id="安装laravel指定版本"><a href="#安装laravel指定版本" class="headerlink" title="安装laravel指定版本"></a>安装laravel指定版本</h2><pre class="line-numbers language-php"><code class="language-php">composer create<span class="token operator">-</span>project laravel<span class="token operator">/</span>laravel laravel<span class="token operator">-</span>shop <span class="token operator">--</span>prefer<span class="token operator">-</span>dist <span class="token string">"8.*"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="中文语言包"><a href="#中文语言包" class="headerlink" title="中文语言包"></a>中文语言包</h2><h2 id="验证码"><a href="#验证码" class="headerlink" title="验证码"></a>验证码</h2><h3 id="未完继续更新"><a href="#未完继续更新" class="headerlink" title="未完继续更新"></a>未完继续更新</h3>]]></content>
+        <content type="html"><![CDATA[<h2 id="安装laravel指定版本"><a href="#安装laravel指定版本" class="headerlink" title="安装laravel指定版本"></a>安装laravel指定版本</h2><pre class="line-numbers language-php"><code class="language-php">composer create<span class="token operator">-</span>project laravel<span class="token operator">/</span>laravel laravel<span class="token operator">-</span>shop <span class="token operator">--</span>prefer<span class="token operator">-</span>dist <span class="token string">"8.*"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="中文语言包"><a href="#中文语言包" class="headerlink" title="中文语言包"></a>中文语言包</h2><h2 id="验证码"><a href="#验证码" class="headerlink" title="验证码"></a>验证码</h2><h3 id="未完继续更新"><a href="#未完继续更新" class="headerlink" title="未完继续更新"></a>未完继续更新</h3><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
           
-          <category> Laravle </category>
+          <category> Laravel </category>
           
       </categories>
       
