@@ -6,10 +6,15 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="背景图片4, PHP Laravel Liunx 美丽 Mysql 程序猿 深度学习">
+    <meta name="keywords" content="php判断字符串是否包含某字符, PHP Laravel Liunx 美丽 Mysql 程序猿 深度学习">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
-    <meta name="description" content="背景图片4 | 美丽的博客">
+    <meta name="description" content="strpos() 函数判断字符串中是否包含某字符串
+strstr()函数
+strstr()函数搜索一个字符串在另一个字符串中的第一次出现。
+该函数返回字符串的其余部分（从匹配点）。如果未找到所搜索的字符串，则返回 false。
+
+代码如下:">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +22,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>背景图片4 | 美丽的博客</title>
+    <title>php判断字符串是否包含某字符 | 美丽的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -473,10 +478,20 @@
 
 </header>
 
-        <link rel="stylesheet" href="/css/gallery.css">
+        
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
 
-<link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/justifiedGallery/3.7.0/css/justifiedGallery.min.css">
 
 
 
@@ -486,7 +501,7 @@
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        背景图片4
+                        php判断字符串是否包含某字符
                     </div>
                 </div>
             </div>
@@ -496,193 +511,522 @@
 
 
 
-<!--   "  <p class=\"photo-name\">" + photo + "</p>\n" +
-文件名先注释掉  -->
+<main class="post-container content">
 
-<!-- 不加密写法 -->
-<!-- <div class="container">
-    <div class="photo-wrapper">
-        <div class="waterfall" id="mygallery">
-            <a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_151.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_151.jpg"
-       alt=背景图片/bg_pic_151.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_152.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_152.jpg"
-       alt=背景图片/bg_pic_152.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_153.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_153.jpg"
-       alt=背景图片/bg_pic_153.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_154.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_154.jpg"
-       alt=背景图片/bg_pic_154.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_155.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_155.jpg"
-       alt=背景图片/bg_pic_155.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_156.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_156.jpg"
-       alt=背景图片/bg_pic_156.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_157.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_157.jpg"
-       alt=背景图片/bg_pic_157.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_158.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_158.jpg"
-       alt=背景图片/bg_pic_158.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_159.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_159.jpg"
-       alt=背景图片/bg_pic_159.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_160.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_160.jpg"
-       alt=背景图片/bg_pic_160.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_161.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_161.jpg"
-       alt=背景图片/bg_pic_161.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_162.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_162.jpg"
-       alt=背景图片/bg_pic_162.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_163.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_163.jpg"
-       alt=背景图片/bg_pic_163.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_164.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_164.jpg"
-       alt=背景图片/bg_pic_164.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_165.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_165.jpg"
-       alt=背景图片/bg_pic_165.jpg>
-    </a>
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 20px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- shw2018 洪卫  modify 2019.08.15-->
+<!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/PHP/" target="_blank">
+                                <span class="chip bg-color">PHP</span>
+                            </a>
+                        
+                            <a href="/tags/php函数/" target="_blank">
+                                <span class="chip bg-color">php函数</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/PHP/" class="post-category" target="_blank">
+                                PHP
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-10-10
+                </div>
+
+                <div class="post-author info-break-policy">
+                    <i class="fa fa-user-o fa-fw"></i>作者:&nbsp;&nbsp;
+                    
+                        美丽
+                    
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        616
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        2 分
+                    </div>
+                    
+                
+                
+                
+                        <span id="busuanzi_container_site_pv" style='display:none'></span>
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv" ></span>
+    
+                
+
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>strpos() 函数判断字符串中是否包含某字符串</p>
+<h2 id="strstr-函数"><a href="#strstr-函数" class="headerlink" title="strstr()函数"></a>strstr()函数</h2><ol>
+<li><code>strstr()</code>函数搜索一个字符串在另一个字符串中的第一次出现。</li>
+<li>该函数返回字符串的其余部分（从匹配点）。如果未找到所搜索的字符串，则返回 <code>false</code>。</li>
+</ol>
+<p>代码如下:</p>
+<pre class="line-numbers language-php"><code class="language-php"><span class="token delimiter">&lt;?php</span>
+ <span class="token comment" spellcheck="true">/*如手册上的举例*/</span>
+ <span class="token variable">$email</span> <span class="token operator">=</span> <span class="token string">'user@example.com'</span><span class="token punctuation">;</span>
+ <span class="token variable">$domain</span> <span class="token operator">=</span> <span class="token function">strstr</span><span class="token punctuation">(</span><span class="token variable">$email</span><span class="token punctuation">,</span> <span class="token string">'@'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ <span class="token keyword">echo</span> <span class="token variable">$domain</span><span class="token punctuation">;</span>
+ <span class="token comment" spellcheck="true">// prints @example.com</span>
+<span class="token delimiter">?></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="stristr-函数"><a href="#stristr-函数" class="headerlink" title="stristr()函数"></a>stristr()函数</h2><ol>
+<li><code>stristr()</code>函数查找字符串在另一个字符串中第一次出现的位置。</li>
+<li>如果成功，则返回字符串的其余部分（从匹配点）。如果没有找到该字符串，则返回 <code>false</code>。</li>
+</ol>
+<p>它和``strstr<code>的使用方法完全一样.唯一的区别是</code>stristr`不区分大小写.</p>
+<h2 id="strpos-函数"><a href="#strpos-函数" class="headerlink" title="strpos()函数"></a>strpos()函数</h2><p><code>strpos</code>函数返回boolean值.``FALSE<code>和</code>TRUE<code>不用多说.用 “===”进行判断.</code>strpos<code>在执行速度上都比以上两个函数快,另外</code>strpos`有一个参数指定判断的位置,但是默认为空.意思是判断整个字符串.缺点是对中文的支持不好.</p>
+<p>实例1</p>
+<pre class="line-numbers language-bash"><code class="language-bash">if<span class="token punctuation">(</span>strpos<span class="token punctuation">(</span><span class="token string">'www.jb51.net'</span>,<span class="token string">'jb51'</span><span class="token punctuation">)</span> <span class="token operator">!=</span><span class="token operator">=</span> false<span class="token punctuation">)</span><span class="token punctuation">{</span> 
+ <span class="token keyword">echo</span> <span class="token string">'包含jb51'</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span>else<span class="token punctuation">{</span>
+ <span class="token keyword">echo</span> <span class="token string">'不包含jb51'</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>实例2</p>
+<pre class="line-numbers language-php"><code class="language-php"><span class="token variable">$str</span><span class="token operator">=</span> <span class="token string">'abc'</span><span class="token punctuation">;</span>
+<span class="token variable">$needle</span><span class="token operator">=</span> <span class="token string">'a'</span><span class="token punctuation">;</span>
+<span class="token variable">$pos</span> <span class="token operator">=</span> <span class="token function">strpos</span><span class="token punctuation">(</span><span class="token variable">$str</span><span class="token punctuation">,</span> <span class="token variable">$needle</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 返回第一次找到改字符串的位置，这里返回为1，若查不到则返回False</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h2 id="explode"><a href="#explode" class="headerlink" title="explode"></a>explode</h2><p>用<code>explode</code>进行判断PHP判断字符串的包含代码如下:</p>
+<pre class="line-numbers language-php"><code class="language-php"><span class="token keyword">function</span> <span class="token function">checkstr</span><span class="token punctuation">(</span><span class="token variable">$str</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+ <span class="token variable">$needle</span> <span class="token operator">=</span><span class="token string">'a'</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//判断是否包含a这个字符</span>
+ <span class="token variable">$tmparray</span> <span class="token operator">=</span> <span class="token function">explode</span><span class="token punctuation">(</span><span class="token variable">$needle</span><span class="token punctuation">,</span><span class="token variable">$str</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">count</span><span class="token punctuation">(</span><span class="token variable">$tmparray</span><span class="token punctuation">)</span><span class="token operator">></span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+ <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+ <span class="token punctuation">}</span> <span class="token keyword">else</span><span class="token punctuation">{</span>
+ <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+ <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="substr"><a href="#substr" class="headerlink" title="substr"></a>substr</h2><p>例如我们需要判断最后一个字符是不是制定字符</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token variable">$str1</span><span class="token operator">=</span><span class="token string">"&lt;p>这是个winrar专用的dll然后下哦啊不错的dll文件，QlogWin32.dll&lt;/p>"</span><span class="token punctuation">;</span>
+if<span class="token punctuation">(</span>substr<span class="token punctuation">(</span><span class="token variable">$str1</span>,-8<span class="token punctuation">)</span><span class="token operator">==</span><span class="token string">".dll&lt;/p>"</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+<span class="token keyword">echo</span> substr<span class="token punctuation">(</span><span class="token variable">$str1</span>,0,-4<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="substr-count"><a href="#substr-count" class="headerlink" title="substr_count"></a>substr_count</h2><p>统计“子字符串”在“原始字符串中出现的次数”</p>
+<p>substr_count()函数本是一个小字符串在一个大字符串中出现的次数：</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token variable">$number</span> <span class="token operator">=</span> substr_count<span class="token punctuation">(</span>big_string, small_string<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>正好今天需要一个查找字符串的函数，要实现判断字符串big_string是否包含字符串small_string，返回true或fasle；</p>
+<p>查了半天手册没有找到现成的函数，于是想到可以用substr_count函数来实现代码如下：</p>
+<pre class="line-numbers language-php"><code class="language-php"><span class="token keyword">function</span> <span class="token function">check_str</span><span class="token punctuation">(</span><span class="token variable">$str</span><span class="token punctuation">,</span> <span class="token variable">$substr</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+ <span class="token variable">$nums</span><span class="token operator">=</span><span class="token function">substr_count</span><span class="token punctuation">(</span><span class="token variable">$str</span><span class="token punctuation">,</span><span class="token variable">$substr</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$nums</span><span class="token operator">>=</span><span class="token number">1</span><span class="token punctuation">)</span>
+ <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+ <span class="token punctuation">}</span>
+ <span class="token keyword">else</span>
+ <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+ <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+超级简单！<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            
+            
+            
+            <div class="reprint1">
+                <p>
+                    <span class="reprint1-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
+                    <a href="https://zhongyusun.github.io" class="b-link-green">美丽的博客</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2022/10/10/php-pan-duan-zi-fu-chuan-shi-fou-bao-han-mou-zi-fu/" class="b-link-green">php判断字符串是否包含某字符</a>
+                </p>
+            </div>
+
         </div>
     </div>
-</div> -->
 
-<!-- 洪卫 shw2018  modify  2019.08.29  -->
-<!-- 加密写法 -->
-<div class="container">
-    <div class="photo-wrapper">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
         
-            <div class="waterfall" id="encrypt-blog">
-                <a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_151.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_151.jpg"
-       alt=背景图片/bg_pic_151.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_152.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_152.jpg"
-       alt=背景图片/bg_pic_152.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_153.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_153.jpg"
-       alt=背景图片/bg_pic_153.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_154.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_154.jpg"
-       alt=背景图片/bg_pic_154.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_155.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_155.jpg"
-       alt=背景图片/bg_pic_155.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_156.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_156.jpg"
-       alt=背景图片/bg_pic_156.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_157.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_157.jpg"
-       alt=背景图片/bg_pic_157.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_158.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_158.jpg"
-       alt=背景图片/bg_pic_158.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_159.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_159.jpg"
-       alt=背景图片/bg_pic_159.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_160.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_160.jpg"
-       alt=背景图片/bg_pic_160.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_161.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_161.jpg"
-       alt=背景图片/bg_pic_161.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_162.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_162.jpg"
-       alt=背景图片/bg_pic_162.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_163.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_163.jpg"
-       alt=背景图片/bg_pic_163.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_164.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_164.jpg"
-       alt=背景图片/bg_pic_164.jpg>
-    </a><a href="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery/背景图片/bg_pic_165.jpg"
-     class="photo-item" rel="example_group"
-     data-fancybox="images">
-      <img src="https://raw.githubusercontent.com/shw2018/Gallery/master/gallery_tiny/背景图片/bg_pic_165.jpg"
-       alt=背景图片/bg_pic_165.jpg>
-    </a>
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
             </div>
+            <div class="card">
+                <a href="/2022/10/10/php-pan-duan-zi-fu-chuan-shi-fou-bao-han-mou-zi-fu/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="php判断字符串是否包含某字符">
+                        
+                        <span class="card-title">php判断字符串是否包含某字符</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            strpos() 函数判断字符串中是否包含某字符串
+strstr()函数
+strstr()函数搜索一个字符串在另一个字符串中的第一次出现。
+该函数返回字符串的其余部分（从匹配点）。如果未找到所搜索的字符串，则返回 false。
+
+代码如下:
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-10-10
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/PHP/" class="post-category" target="_blank">
+                                    PHP
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/PHP/" target="_blank">
+                        <span class="chip bg-color">PHP</span>
+                    </a>
+                    
+                    <a href="/tags/php函数/" target="_blank">
+                        <span class="chip bg-color">php函数</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
         
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/10/10/laravel-gong-neng-dai-ma-kuai/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Laravel功能代码块">
+                        
+                        <span class="card-title">Laravel功能代码块</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            邮箱功能开发（qq邮箱为例）
+MustVerifyEmail（强制认证，框架自带）
+
+调整User模型
+app/Models/User.php
+// 这里加上 MustVerifyEmail
+class User extends Authe
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-10-10
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Laravel/" class="post-category" target="_blank">
+                                    Laravel
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/laravel/" target="_blank">
+                        <span class="chip bg-color">laravel</span>
+                    </a>
+                    
+                    <a href="/tags/代码块/" target="_blank">
+                        <span class="chip bg-color">代码块</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
     </div>
 </div>
 
-<script src="/libs/lazyload/jquery.lazyload.js"></script>
-<script src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-<script src="https://cdn.staticfile.org/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js"></script>
+<!-- TOC 悬浮按钮. -->
 
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fa fa-list"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
 <script>
-  // $(".waterfall").lazyload();
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h1, h2, h3, h4, h5'
+        });
 
-$("a[rel=example_group]").fancybox();
-//  不加密写法
-// $("#mygallery").justifiedGallery({margins: 5, rowHeight: 150});
-$("#encrypt-blog").justifiedGallery({margins: 5, rowHeight: 150});
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
 
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).slideUp(500);
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).slideDown(500);
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
 </script>
+    
+
+</main>
+
 
         <footer class="page-footer bg-color">
     <div class="container row center-align">

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhongyusun.github.io/"/>
-  <updated>2022-10-10T06:50:55.012Z</updated>
+  <updated>2022-10-10T10:16:37.950Z</updated>
   <id>https://zhongyusun.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>php判断字符串是否包含某字符</title>
+    <link href="https://zhongyusun.github.io/2022/10/10/php-pan-duan-zi-fu-chuan-shi-fou-bao-han-mou-zi-fu/"/>
+    <id>https://zhongyusun.github.io/2022/10/10/php-pan-duan-zi-fu-chuan-shi-fou-bao-han-mou-zi-fu/</id>
+    <published>2022-10-10T10:08:23.000Z</published>
+    <updated>2022-10-10T10:16:37.950Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;strpos() 函数判断字符串中是否包含某字符串&lt;/p&gt;
+&lt;h2 id=&quot;strstr-函数&quot;&gt;&lt;a href=&quot;#strstr-函数&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="PHP" scheme="https://zhongyusun.github.io/categories/PHP/"/>
+    
+    
+      <category term="PHP" scheme="https://zhongyusun.github.io/tags/PHP/"/>
+    
+      <category term="php函数" scheme="https://zhongyusun.github.io/tags/php%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Laravel功能代码块</title>
