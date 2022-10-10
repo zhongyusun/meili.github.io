@@ -4,46 +4,6 @@
   
     
     <entry>
-      <title>测试下文章发布</title>
-      <link href="/2022/10/10/ce-shi-xia-wen-zhang-fa-bu/"/>
-      <url>/2022/10/10/ce-shi-xia-wen-zhang-fa-bu/</url>
-      
-        <content type="html"><![CDATA[<h1 id="山东黄金发了疯即可fa"><a href="#山东黄金发了疯即可fa" class="headerlink" title="山东黄金发了疯即可fa"></a>山东黄金发了疯即可fa</h1><p>案说法<img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="D:%5Cmeili%5Csource_posts%5C%E6%B5%8B%E8%AF%95%E4%B8%8B%E6%96%87%E7%AB%A0%E5%8F%91%E5%B8%83%5Ct01ec742a0f5973c5e2.jpg" alt="t01ec742a0f5973c5e2"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 测试博客 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 博客 </tag>
-            
-            <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试文章</title>
-      <link href="/2022/10/09/ce-shi-wen-zhang/"/>
-      <url>/2022/10/09/ce-shi-wen-zhang/</url>
-      
-        <content type="html"><![CDATA[<h1 id="是啊手动阀手动阀"><a href="#是啊手动阀手动阀" class="headerlink" title="是啊手动阀手动阀"></a>是啊手动阀手动阀</h1><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>博客开源</title>
       <link href="/2019/08/27/blog-open-source/"/>
       <url>/2019/08/27/blog-open-source/</url>
