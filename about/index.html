@@ -524,21 +524,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                         <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                             
 <div class="statis">
-    <span class="count"><a href="/" target="_blank">1</a></span>
+    <span class="count"><a href="/" target="_blank">2</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories" target="_blank">2</a></span>
+    <span class="count"><a href="/categories" target="_blank">3</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags" target="_blank">4</a></span>
+    <span class="count"><a href="/tags" target="_blank">6</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -553,21 +553,21 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                                     <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                         
 <div class="statis">
-    <span class="count"><a href="/" target="_blank">1</a></span>
+    <span class="count"><a href="/" target="_blank">2</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories" target="_blank">2</a></span>
+    <span class="count"><a href="/categories" target="_blank">3</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags" target="_blank">4</a></span>
+    <span class="count"><a href="/tags" target="_blank">6</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -708,7 +708,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,0],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -750,7 +750,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"软件安装与配置","value":1},{"name":"测试博客","value":0}],
+                data: [{"name":"Laravle","value":1},{"name":"L","value":0},{"name":"Laravel","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -774,7 +774,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         xAxis: [
             {
                 type: 'category',
-                data: ["Hexo","Github","博客","hexo"]
+                data: ["laravel","代码块","插件","代码","拆建","拆"]
             }
         ],
         yAxis: [
@@ -787,7 +787,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1,1,0],
+                data: [2,1,1,0,0,0],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -956,26 +956,38 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/Hexo/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">Hexo</span>
+            <a href="/tags/laravel/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">laravel</span>
             </a>
             
             
             
-            <a href="/tags/Github/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">Github</span>
+            <a href="/tags/代码/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">代码</span>
             </a>
             
             
             
-            <a href="/tags/博客/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">博客</span>
+            <a href="/tags/代码块/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">代码块</span>
             </a>
             
             
             
-            <a href="/tags/hexo/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">hexo</span>
+            <a href="/tags/拆建/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">拆建</span>
+            </a>
+            
+            
+            
+            <a href="/tags/拆/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">拆</span>
+            </a>
+            
+            
+            
+            <a href="/tags/插件/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">插件</span>
             </a>
             
             
@@ -1000,25 +1012,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <li><b>电子邮箱</b><br><a href="mailto:2460245313@qq.com" target="_blank" rel="noopener">2460245313@qq.com</a></li>
 <li><b>QQ</b><br>2460245313</li>
 </ul>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+
                         </div>
                     </div>
                 </div>
@@ -1052,7 +1046,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">1.2k</span> 字
+                <span class="white-color">491</span> 字
             
 
             

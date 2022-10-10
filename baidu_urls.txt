@@ -1,1 +1,2 @@
-https://zhongyusun.github.io/2019/08/27/blog-open-source/
+https://zhongyusun.github.io/2022/10/10/laravel-gong-neng-dai-ma-kuai/
+https://zhongyusun.github.io/2022/10/10/laravel-chang-yong-kuo-zhan/

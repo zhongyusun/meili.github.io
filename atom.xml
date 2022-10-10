@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhongyusun.github.io/"/>
-  <updated>2022-10-10T04:25:46.145Z</updated>
+  <updated>2022-10-10T06:50:55.012Z</updated>
   <id>https://zhongyusun.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客开源</title>
-    <link href="https://zhongyusun.github.io/2019/08/27/blog-open-source/"/>
-    <id>https://zhongyusun.github.io/2019/08/27/blog-open-source/</id>
-    <published>2019-08-27T03:41:03.000Z</published>
-    <updated>2022-10-10T04:25:46.145Z</updated>
+    <title>Laravel功能代码块</title>
+    <link href="https://zhongyusun.github.io/2022/10/10/laravel-gong-neng-dai-ma-kuai/"/>
+    <id>https://zhongyusun.github.io/2022/10/10/laravel-gong-neng-dai-ma-kuai/</id>
+    <published>2022-10-10T06:44:33.000Z</published>
+    <updated>2022-10-10T06:50:55.012Z</updated>
     
     <summary type="html">
     
@@ -29,20 +29,46 @@
       
         
         
-          &lt;h1 id=&quot;效果演示&quot;&gt;&lt;a href=&quot;#效果演示&quot; class=&quot;headerlink&quot; title=&quot;效果演示&quot;&gt;&lt;/a&gt;效果演示&lt;/h1&gt;&lt;p&gt;&lt;img
+          &lt;h2 id=&quot;邮箱功能开发（qq邮箱为例）&quot;&gt;&lt;a href=&quot;#邮箱功能开发（qq邮箱为例）&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
-      <category term="软件安装与配置" scheme="https://zhongyusun.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+      <category term="Laravel" scheme="https://zhongyusun.github.io/categories/Laravel/"/>
     
     
-      <category term="Hexo" scheme="https://zhongyusun.github.io/tags/Hexo/"/>
+      <category term="laravel" scheme="https://zhongyusun.github.io/tags/laravel/"/>
     
-      <category term="Github" scheme="https://zhongyusun.github.io/tags/Github/"/>
+      <category term="代码块" scheme="https://zhongyusun.github.io/tags/%E4%BB%A3%E7%A0%81%E5%9D%97/"/>
     
-      <category term="博客" scheme="https://zhongyusun.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+  </entry>
+  
+  <entry>
+    <title>Laravel常用扩展</title>
+    <link href="https://zhongyusun.github.io/2022/10/10/laravel-chang-yong-kuo-zhan/"/>
+    <id>https://zhongyusun.github.io/2022/10/10/laravel-chang-yong-kuo-zhan/</id>
+    <published>2022-10-10T06:40:14.000Z</published>
+    <updated>2022-10-10T06:49:54.207Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;安装laravel指定版本&quot;&gt;&lt;a href=&quot;#安装laravel指定版本&quot; class=&quot;headerlink&quot; title=&quot;安装laravel指定版本&quot;&gt;&lt;/a&gt;安装laravel指定版本&lt;/h2&gt;&lt;pre class=&quot;line-numbers
+        
+      
+    
+    </summary>
+    
+      <category term="Laravle" scheme="https://zhongyusun.github.io/categories/Laravle/"/>
+    
+    
+      <category term="laravel" scheme="https://zhongyusun.github.io/tags/laravel/"/>
+    
+      <category term="插件" scheme="https://zhongyusun.github.io/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   

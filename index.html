@@ -520,13 +520,6 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
-    <div id="prev-cover" class="left waves-effect carousel-control">
-        <i class="icon fa fa-angle-left"></i>
-    </div>
-    <div id="next-cover" class="right waves-effect carousel-control">
-        <i class="icon fa fa-angle-right"></i>
-    </div>
-    
 
     <div class="carousel-item red white-text bg-cover about-cover">
         <div class="container">
@@ -603,32 +596,6 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     </div>
 
     
-    
-
-    
-    
-    <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('/medias/banner/0.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col s10 offset-s1">
-                    <div class="title center-align">博客开源</div>
-                    <div class="description center-align">
-                    
-                        倒腾了一两周总算把个人博客网站完善了，目前这个版本使用应该是够了，当然还有一些优化项和功能增加后续在慢慢更新，为了回馈开源，今天准备把我自己修改完善的`blog`网站源代码开源。这不是生成后的网页文件，是您可以直接使用的源码，您只需要把博客相关信息换成您自己的就可以部署了。
-                    
-                    </div>
-                    <div class="cover-btns">
-                        <a href="/2019/08/27/blog-open-source/" class="waves-effect waves-light btn" target="_blank">
-                            <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
 </div>
 
 <script>
@@ -701,18 +668,18 @@ $(function () {
     
     
     <div class="col s12" >
-        <div class="post-card" style="background-image: url('/medias/featureimages/16.jpg')">
+        <div class="post-card" style="background-image: url('/medias/featureimages/21.jpg')">
             <div class="post-body">
                 <div class="post-categories">
                     
-                    <a href="/categories/软件安装与配置/" class="category" target="_blank">软件安装与配置</a>
+                    <a href="/categories/Laravle/" class="category" target="_blank">Laravle</a>
                     
                 </div>
-                <a href="/2019/08/27/blog-open-source/" target="_blank">
-                    <h3 class="post-title">博客开源</h3>
+                <a href="/2022/10/10/laravel-chang-yong-kuo-zhan/" target="_blank">
+                    <h3 class="post-title">Laravel常用扩展</h3>
                 </a>
-                <p class="post-description">倒腾了一两周总算把个人博客网站完善了，目前这个版本使用应该是够了，当然还有一些优化项和功能增加后续在慢慢更新，为了回馈开源，今天准备把我自己修改完善的`blog`网站源代码开源。这不是生成后的网页文件，是您可以直接使用的源码，您只需要把博客相关信息换成您自己的就可以部署了。</p>
-                <a href="/2019/08/27/blog-open-source/" target="_blank"
+                <p class="post-description">安装laravel指定版本composer create-project laravel/laravel laravel-shop --prefer-dist "8.*"</p>
+                <a href="/2022/10/10/laravel-chang-yong-kuo-zhan/" target="_blank"
                         class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)">
                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                 </a>
@@ -739,32 +706,38 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/08/27/blog-open-source/" target="_blank">
+                    <a href="/2022/10/10/laravel-gong-neng-dai-ma-kuai/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="博客开源">
+                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Laravel功能代码块">
                             
-                            <span class="card-title">博客开源</span>
+                            <span class="card-title">Laravel功能代码块</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            倒腾了一两周总算把个人博客网站完善了，目前这个版本使用应该是够了，当然还有一些优化项和功能增加后续在慢慢更新，为了回馈开源，今天准备把我自己修改完善的`blog`网站源代码开源。这不是生成后的网页文件，是您可以直接使用的源码，您只需要把博客相关信息换成您自己的就可以部署了。
+                            邮箱功能开发（qq邮箱为例）
+MustVerifyEmail（强制认证，框架自带）
+
+调整User模型
+app/Models/User.php
+// 这里加上 MustVerifyEmail
+class User extends Authe
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-27
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-10-10
                             </span>
                             <span class="publish-author">
                                 
                                 <i class="fa fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/软件安装与配置/" class="post-category" target="_blank">
-                                    软件安装与配置
+                                <a href="/categories/Laravel/" class="post-category" target="_blank">
+                                    Laravel
                                 </a>
                                 
                                 
@@ -775,16 +748,64 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Hexo/" target="_blank">
-                            <span class="chip bg-color">Hexo</span>
+                        <a href="/tags/laravel/" target="_blank">
+                            <span class="chip bg-color">laravel</span>
                         </a>
                         
-                        <a href="/tags/Github/" target="_blank">
-                            <span class="chip bg-color">Github</span>
+                        <a href="/tags/代码块/" target="_blank">
+                            <span class="chip bg-color">代码块</span>
                         </a>
                         
-                        <a href="/tags/博客/" target="_blank">
-                            <span class="chip bg-color">博客</span>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2022/10/10/laravel-chang-yong-kuo-zhan/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Laravel常用扩展">
+                            
+                            <span class="card-title">Laravel常用扩展</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            安装laravel指定版本composer create-project laravel/laravel laravel-shop --prefer-dist "8.*"
+中文语言包验证码未完继续更新
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2022-10-10
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/Laravle/" class="post-category" target="_blank">
+                                    Laravle
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/laravel/" target="_blank">
+                            <span class="chip bg-color">laravel</span>
+                        </a>
+                        
+                        <a href="/tags/插件/" target="_blank">
+                            <span class="chip bg-color">插件</span>
                         </a>
                         
                     </div>
@@ -824,7 +845,7 @@ $(function () {
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">1.2k</span> 字
+                <span class="white-color">491</span> 字
             
 
             
