@@ -38,9 +38,9 @@
       <category term="测试博客" scheme="https://zhongyusun.github.io/categories/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="hexo" scheme="https://zhongyusun.github.io/tags/hexo/"/>
-    
       <category term="博客" scheme="https://zhongyusun.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="hexo" scheme="https://zhongyusun.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -89,11 +89,11 @@
       <category term="软件安装与配置" scheme="https://zhongyusun.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
     
     
-      <category term="博客" scheme="https://zhongyusun.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="https://zhongyusun.github.io/tags/Hexo/"/>
     
       <category term="Github" scheme="https://zhongyusun.github.io/tags/Github/"/>
+    
+      <category term="博客" scheme="https://zhongyusun.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
