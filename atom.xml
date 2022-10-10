@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhongyusun.github.io/"/>
-  <updated>2022-10-09T14:29:01.538Z</updated>
+  <updated>2022-10-10T01:48:09.719Z</updated>
   <id>https://zhongyusun.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>测试下文章发布</title>
+    <link href="https://zhongyusun.github.io/2022/10/10/ce-shi-xia-wen-zhang-fa-bu/"/>
+    <id>https://zhongyusun.github.io/2022/10/10/ce-shi-xia-wen-zhang-fa-bu/</id>
+    <published>2022-10-10T01:45:08.000Z</published>
+    <updated>2022-10-10T01:48:09.719Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;山东黄金发了疯即可fa&quot;&gt;&lt;a href=&quot;#山东黄金发了疯即可fa&quot; class=&quot;headerlink&quot; title=&quot;山东黄金发了疯即可fa&quot;&gt;&lt;/a&gt;山东黄金发了疯即可fa&lt;/h1&gt;&lt;p&gt;案说法&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="测试博客" scheme="https://zhongyusun.github.io/categories/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="hexo" scheme="https://zhongyusun.github.io/tags/hexo/"/>
+    
+      <category term="博客" scheme="https://zhongyusun.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>测试文章</title>
     <link href="https://zhongyusun.github.io/2022/10/09/ce-shi-wen-zhang/"/>
     <id>https://zhongyusun.github.io/2022/10/09/ce-shi-wen-zhang/</id>
     <published>2022-10-09T14:28:13.000Z</published>
-    <updated>2022-10-09T14:29:01.538Z</updated>
+    <updated>2022-10-10T01:42:41.298Z</updated>
     
     <summary type="html">
     
@@ -61,11 +89,11 @@
       <category term="软件安装与配置" scheme="https://zhongyusun.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
     
     
+      <category term="博客" scheme="https://zhongyusun.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
       <category term="Hexo" scheme="https://zhongyusun.github.io/tags/Hexo/"/>
     
       <category term="Github" scheme="https://zhongyusun.github.io/tags/Github/"/>
-    
-      <category term="博客" scheme="https://zhongyusun.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
